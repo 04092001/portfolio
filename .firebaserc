@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "default": "my-portfolio-bd70f"
+  },
+  "targets": {},
+  "etags": {
+    "my-portfolio-bd70f": {
+      "extensionInstances": {}
+    }
+  }
+}

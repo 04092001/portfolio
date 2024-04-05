@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="src/output.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fheath.dev</title>
+  </head>
+  <body class="bg-slate-900">
+    <section>
+      <div class="flex pt-36 px-44">
+        <div class="flex-1 flex self-center">
+          <div class="fixed">
+            <h1 class="text-4xl font-bold text-slate-200">Freddie Heath</h1>
+            <h1 class="text-lg text-slate-300 w-96 mt-2">
+              Media Communcations undergraduate and aspiring front end developer
+            </h1>
+            <p class="mt-5 text-slate-400">
+              I am learning to build simple and effective frontend web
+              applications
+            </p>
+            <a
+              class="cursor-pointer"
+              href="https://www.linkedin.com/in/freddie-heath-a80a02175/"
+            >
+              <ion-icon class="text-slate-300" name="logo-linkedin"></ion-icon>
+            </a>
+            <a class="cursor-pointer" href="https://github.com/04092001">
+              <ion-icon class="text-slate-300" name="logo-github"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <div class="flex-1">
+          <div class="overscroll-auto">
+            <div class="pb-10">
+              <h1 class="text-slate-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti, expedita, fugit quos ipsam quod hic temporibus quis
+                odio aperiam in labore at ducimus explicabo sequi. Ullam atque
+                illum quasi corporis? Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Aperiam, aliquam.
+              </h1>
+              <h1 class="pt-8 text-slate-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, aliquam. Placeat exercitationem ex excepturi enim
+                accusamus similique, molestiae labore laudantium magni at facere
+                eos modi nulla possimus, sunt architecto. Vel.
+              </h1>
+              <h1 class="pt-8 text-slate-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, aliquam.
+              </h1>
+              <h1 class="text-slate-400">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti, expedita, fugit quos ipsam quod hic temporibus quis
+                odio aperiam in labore at ducimus explicabo sequi. Ullam atque
+                illum quasi corporis? Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Aperiam, aliquam.
+              </h1>
+            </div>
+            <div class="pt-8">
+              <h1 class="text-slate-200 font-bold pb-8">Education</h1>
+            </div>
+
+            <div class="py-8 flex">
+              <h1 class="text-xs w-1/5 text-slate-400">2018 - 2020</h1>
+              <div class="text-sm w-4/5">
+                <h1 class="text-slate-200 font-bold">A-Levels</h1>
+                <h1 class="text-slate-300 font-semibold">
+                  Cedars Upper School
+                </h1>
+                <p class="text-slate-400 mt-1">> Three A-Levels</p>
+              </div>
+            </div>
+            <div class="py-8 flex">
+              <h1 class="text-xs w-1/5 text-slate-400">2021 - Present</h1>
+              <div class="text-sm w-4/5">
+                <h1 class="text-slate-200 font-bold">
+                  Media Communications (BA)
+                </h1>
+                <h1 class="text-slate-300 font-semibold">UAL:</h1>
+                <p class="text-slate-400 mt-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                  necessitatibus quia ut quisquam enim asperiores ex nesciunt
+                  incidunt non. Beatae nihil eos earum esse quo officia ducimus
+                  dolores quae repellat.
+                </p>
+              </div>
+            </div>
+            <div class="py-8">
+              <h1 class="text-slate-200 font-bold">Skills</h1>
+              <h1 class="text-slate-400 pt-4">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti, expedita, fugit quos ipsam quod hic temporibus quis
+                odio aperiam in labore at ducimus explicabo sequi. Ullam atque
+                illum quasi corporis? Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Aperiam, aliquam.
+              </h1>
+            </div>
+            <div class="pt-4">
+              <h1
+                class="text-slate-200 hover:text-slate-700 cursor-pointer font-bold"
+              >
+                Projects
+              </h1>
+            </div>
+
+            <div class="pt-8">
+              <h1 class="text-slate-200 font-bold">Download Full Resume</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section></section>
+    <section></section>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCMAV30GL5hwcmW6VlM0IFlWn9yP-Nu3JY",
+        authDomain: "my-portfolio-bd70f.firebaseapp.com",
+        databaseURL:
+          "https://my-portfolio-bd70f-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "my-portfolio-bd70f",
+        storageBucket: "my-portfolio-bd70f.appspot.com",
+        messagingSenderId: "830898246489",
+        appId: "1:830898246489:web:7aaf09c6c52e1fa0e77248",
+        measurementId: "G-37JGE85X6W",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -1,75 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="src/output.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>fheath.dev</title>
+    <title>freddie-heath.com</title>
   </head>
   <body class="bg-slate-900">
     <section>
-      <div class="flex pt-36 px-44">
-        <div class="flex-1 flex self-center">
-          <div class="fixed">
-            <h1 class="text-4xl font-bold text-slate-200">Freddie Heath</h1>
-            <h1 class="text-lg text-slate-300 w-96 mt-2">
-              Media Communcations undergraduate and aspiring front end developer
-            </h1>
-            <p class="mt-5 text-slate-400">
-              I am learning to build simple and effective frontend web
-              applications
-            </p>
-            <a
-              class="cursor-pointer"
-              href="https://www.linkedin.com/in/freddie-heath-a80a02175/"
-            >
-              <ion-icon class="text-slate-300" name="logo-linkedin"></ion-icon>
-            </a>
-            <a class="cursor-pointer" href="https://github.com/04092001">
-              <ion-icon class="text-slate-300" name="logo-github"></ion-icon>
-            </a>
+      <div class="px-10 md:px-60 xl:flex xl:px-40 xl:pt-36">
+        <div
+          class="sm:hidden h-screen flex flex-col justify-center items-center"
+        >
+          <p class="text-center text-slate-200 text-3xl">freddie-heath.com</p>
+          <ion-icon
+            class="text-slate-200 sm:hidden bottom-0"
+            name="chevron-down-outline"
+          ></ion-icon>
+        </div>
+
+        <div class="xl:flex-1 sm:block hidden">
+          <div
+            class="xl:fixed h-screen xl:h-auto items-center justify-center flex"
+          >
+            <div class="">
+              <h1
+                class="text-center sm:text-left text-3xl md:text-8xl xl:text-5xl font-bold tracking-wide text-slate-200"
+              >
+                Freddie Heath
+              </h1>
+              <h1
+                class="text-center sm:text-left text-3xl md:text-5xl xl:text-2xl text-slate-300 w-10/12 mt-4"
+              >
+                Aspiring Front End Developer
+              </h1>
+              <p
+                class="text-center sm:text-left text-base md:text-2xl xl:text-base mt-5 text-slate-400 w-10/12"
+              >
+                I am learning to build simple and effective frontend web
+                applications
+              </p>
+              <div class="hidden py-8 2xl:block">
+                <button
+                  class="text-slate-300 py-1 cursor-pointer hover:text-slate-700 transition duration-0 hover:duration-300"
+                  onclick="scrollTo('.skills')"
+                >
+                  Skills
+                </button>
+                <p
+                  class="text-slate-300 py-1 cursor-pointer hover:text-slate-700 transition duration-0 hover:duration-300"
+                  onclick="scrollTo('.projects')"
+                >
+                  Projects
+                </p>
+                <p
+                  class="text-slate-300 py-1 cursor-pointer hover:text-slate-700 transition duration-0 hover:duration-300"
+                >
+                  CV
+                </p>
+              </div>
+              <div class="gap-x-4 pt-4 flex justify-center sm:justify-normal">
+                <div>
+                  <a
+                    class="cursor-pointer"
+                    href="https://www.linkedin.com/in/freddie-heath-a80a02175/"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      class="text-slate-300 hover:text-slate-700 text-5xl xl:text-2xl transition duration-0 hover:duration-300"
+                      name="logo-linkedin"
+                    ></ion-icon>
+                  </a>
+                </div>
+                <div class="gap-x-5">
+                  <a
+                    class="cursor-pointer"
+                    href="https://github.com/04092001"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      class="text-slate-300 hover:text-slate-700 text-5xl xl:text-2xl transition duration-0 hover:duration-300"
+                      name="logo-github"
+                    ></ion-icon>
+                  </a>
+                </div>
+                <div class="gap-x-5">
+                  <a
+                    class="cursor-pointer"
+                    href="mailto: fheath090401@gmail.com"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      class="text-slate-300 hover:text-slate-700 text-5xl xl:text-2xl transition duration-0 hover:duration-300"
+                      name="mail"
+                    ></ion-icon>
+                  </a>
+                </div>
+                <div class="gap-x-5">
+                  <a
+                    class="cursor-pointer"
+                    href="https://stackoverflow.com/users/21735118/freddie-heath"
+                    target="_blank"
+                  >
+                    <ion-icon
+                      class="text-slate-300 hover:text-slate-700 text-5xl xl:text-2xl transition duration-0 hover:duration-300"
+                      name="logo-stackoverflow"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="flex-1">
+        <div class="xl:flex-1">
           <div class="overscroll-auto">
             <div class="pb-10">
-              <h1 class="text-slate-400">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti, expedita, fugit quos ipsam quod hic temporibus quis
-                odio aperiam in labore at ducimus explicabo sequi. Ullam atque
-                illum quasi corporis? Lorem, ipsum dolor sit amet consectetur
-                adipisicing elit. Aperiam, aliquam.
+              <h1 class="text-slate-400 text-justify">
+                For one of my final university modules, I was tasked with
+                building a portfolio in relation to my future career. As I'm
+                looking to do web development, I thought there was no better way
+                to do this than build a website from scratch using code. This is
+                my first ever website that is online for the world to see...
               </h1>
-              <h1 class="pt-8 text-slate-400">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Aperiam, aliquam. Placeat exercitationem ex excepturi enim
-                accusamus similique, molestiae labore laudantium magni at facere
-                eos modi nulla possimus, sunt architecto. Vel.
+              <h1 class="pt-8 text-slate-400 text-justify">
+                I am currently studying
+                <a
+                  href="https://www.arts.ac.uk/subjects/journalism-pr-media-and-publishing/undergraduate/ba-hons-media-communications-lcc"
+                  target="_blank"
+                >
+                  <span class="cursor-pointer text-slate-300">
+                    Media Communications (BA)
+                  </span></a
+                >
+                at UAL's London College of Communication.
               </h1>
-              <h1 class="pt-8 text-slate-400">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Aperiam, aliquam.
+              <h1 class="pt-8 text-slate-400 text-justify">
+                At school, I never had the option to do Computer Science or
+                anything programming-related. It wasn't until my first year of
+                university, when I was tasked with building a homepage using
+                HTML and CSS, that I started to learn about anything development
+                related.
               </h1>
-              <h1 class="text-slate-400">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti, expedita, fugit quos ipsam quod hic temporibus quis
-                odio aperiam in labore at ducimus explicabo sequi. Ullam atque
-                illum quasi corporis? Lorem, ipsum dolor sit amet consectetur
-                adipisicing elit. Aperiam, aliquam.
+              <h1 class="pt-8 text-slate-400 text-justify">
+                In my spare time when I'm not working on university projects or
+                learning development, I live quite an active lifestyle. I play
+                football and basketball, and also
+                <a
+                  href="https://www.strava.com/athletes/54927854"
+                  target="_blank"
+                >
+                  <span class="text-slate-300 cursor-pointer">run</span></a
+                >.
               </h1>
             </div>
-            <div class="pt-8">
-              <h1 class="text-slate-200 font-bold pb-8">Education</h1>
+            <div
+              class="pt-8 w-auto flex items-center gap-1 cursor-pointer text-slate-200 hover:text-slate-700 transition duration-0 hover:duration-300"
+            >
+              <h1 class="font-bold cursor-pointer">Education</h1>
+              <ion-icon
+                class="cursor-pointer justify-end"
+                name="caret-down-outline"
+              ></ion-icon>
             </div>
 
-            <div class="py-8 flex">
+            <div class="py-4 flex">
               <h1 class="text-xs w-1/5 text-slate-400">2018 - 2020</h1>
               <div class="text-sm w-4/5">
                 <h1 class="text-slate-200 font-bold">A-Levels</h1>
                 <h1 class="text-slate-300 font-semibold">
                   Cedars Upper School
                 </h1>
-                <p class="text-slate-400 mt-1">> Three A-Levels</p>
+                <p class="text-slate-400 mt-1">
+                  I achieve three A-Levels A-C in Creative Media, Spanish and
+                  English Language
+                </p>
               </div>
             </div>
             <div class="py-8 flex">
@@ -79,41 +183,150 @@
                   Media Communications (BA)
                 </h1>
                 <h1 class="text-slate-300 font-semibold">UAL:</h1>
-                <p class="text-slate-400 mt-1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-                  necessitatibus quia ut quisquam enim asperiores ex nesciunt
-                  incidunt non. Beatae nihil eos earum esse quo officia ducimus
-                  dolores quae repellat.
+                <p class="text-slate-400">
+                  Three years spent living in South East London
                 </p>
               </div>
             </div>
             <div class="py-8">
-              <h1 class="text-slate-200 font-bold">Skills</h1>
-              <h1 class="text-slate-400 pt-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti, expedita, fugit quos ipsam quod hic temporibus quis
-                odio aperiam in labore at ducimus explicabo sequi. Ullam atque
-                illum quasi corporis? Lorem, ipsum dolor sit amet consectetur
-                adipisicing elit. Aperiam, aliquam.
-              </h1>
-            </div>
-            <div class="pt-4">
-              <h1
-                class="text-slate-200 hover:text-slate-700 cursor-pointer font-bold"
+              <div
+                class="skills flex items-center gap-1 cursor-pointer text-slate-200 hover:text-slate-700 transition duration-0 hover:duration-300"
               >
-                Projects
+                <h1 class="cursor-pointer font-bold">Skills</h1>
+                <ion-icon
+                  class="cursor-pointer"
+                  name="caret-down-outline"
+                ></ion-icon>
+              </div>
+              <h1 class="text-slate-400 pt-4">
+                In my three years of study, I have learned how to use a number
+                of technologies- which is not limited to web development related
+                software. This includes:
               </h1>
+              <ul class="text-slate-400 grid grid-cols-2 mt-4 gap-y-2">
+                <li class="flex items-center gap-x-1">
+                  <ion-icon name="caret-forward-outline"></ion-icon>HTML & CSS
+                </li>
+                <li class="flex items-center gap-x-1">
+                  <ion-icon name="caret-forward-outline"></ion-icon>JS ES6
+                </li>
+                <li class="flex items-center gap-x-1">
+                  <ion-icon name="caret-forward-outline"></ion-icon>TailwindCSS
+                </li>
+                <li class="flex items-center gap-x-1">
+                  <ion-icon name="caret-forward-outline"></ion-icon>Adobe Cloud
+                </li>
+                <li class="flex items-center gap-x-1">
+                  <ion-icon name="caret-forward-outline"></ion-icon>Microsoft
+                  Office
+                </li>
+                <li class="flex items-center gap-x-1">
+                  <ion-icon name="caret-forward-outline"></ion-icon>Git / GitHub
+                </li>
+              </ul>
             </div>
+            <div>
+              <div
+                class="projects flex items-center gap-1 cursor-pointer py-4 text-slate-200 hover:text-slate-700 transition duration-0 hover:duration-300"
+              >
+                <h1 class="cursor-pointer font-bold">Projects</h1>
+                <ion-icon
+                  class="cursor-pointer"
+                  name="caret-down-outline"
+                ></ion-icon>
+              </div>
+              <div class="grid gap-y-6 justify-center">
+                <div
+                  class="p-2 xl:flex gap-1 cursor-pointer rounded hover:bg-slate-700 transition duration-0 hover:duration-300"
+                >
+                  <div class="block xl:flex-1">
+                    <img
+                      class="h-36 min-w-fit rounded-md"
+                      src="assets/Photo.png"
+                      alt="A Photo"
+                    />
+                  </div>
+                  <div class="block text-sm xl:flex-1 pl-6">
+                    <h1
+                      class="text-slate-200 font-bold text-center sm:text-left pt-2 sm:p-0`"
+                    >
+                      Harvard Referencer
+                    </h1>
+                    <p class="hidden sm:block pt-1 text-slate-400">
+                      In my 3 years at university, I used a Harvard referencer
+                      thousands of times. So I made one using Vanilla JS.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="p-2 xl:flex gap-1 cursor-pointer rounded hover:bg-slate-700 transition duration-0 hover:duration-300"
+                >
+                  <div class="flex-1">
+                    <img
+                      class="h-36 min-w-fit rounded-md"
+                      src="assets/Photo.png"
+                      alt="A Photo"
+                    />
+                  </div>
+                  <div class="text-sm flex-1 pl-6">
+                    <h1
+                      class="text-slate-200 font-bold sm:text-left text-center pt-2 sm:p-0`"
+                    >
+                      To-Do List
+                    </h1>
+                    <p class="pt-1 hidden sm:block text-slate-400">
+                      A classic Javascript Project. A vanilla JS to-do-list.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="p-2 xl:flex gap-1 cursor-pointer rounded hover:bg-slate-700 transition duration-0 hover:duration-300"
+                >
+                  <div class="flex-1">
+                    <img
+                      class="h-36 min-w-fit rounded-md"
+                      src="assets/Photo.png"
+                      alt="A Photo"
+                    />
+                  </div>
+                  <div class="text-sm flex-1 pl-6">
+                    <h1
+                      class="text-slate-200 font-bold sm:text-left text-center pt-2 sm:p-0`"
+                    >
+                      Clone Website
+                    </h1>
+                    <p class="pt-1 hidden sm:block text-slate-400">
+                      A website clone.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-            <div class="pt-8">
-              <h1 class="text-slate-200 font-bold">Download Full Resume</h1>
+              <div
+                class="mt-8 sm:flex sm:justify-normal hidden gap-1 cursor-pointer text-slate-200 hover:text-slate-700 transition duration-0 hover:duration-300"
+              >
+                <h1 class="cursor-pointer font-bold">Download Full Resume</h1>
+                <ion-icon
+                  id="ionIcon"
+                  class="cursor-pointer"
+                  name="caret-down-outline"
+                ></ion-icon>
+              </div>
             </div>
           </div>
+          <footer class="my-8">
+            <div>
+              <div class="flex justify-center">
+                <h1 class="text-slate-200 text-sm pt-8">
+                  Website Built using Tailwind CSS and Vanilla JS. <br />
+                </h1>
+              </div>
+            </div>
+          </footer>
         </div>
       </div>
     </section>
-    <section></section>
-    <section></section>
+    <script src="src/script.js"></script>
     <script type="module">
       // Import the functions you need from the SDKs you need
       import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
@@ -147,5 +360,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
